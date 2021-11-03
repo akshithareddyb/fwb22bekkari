@@ -10,10 +10,10 @@ block content
         div(class="col-sm-4" onclick=`buy(${index})`) Season-type: #{s.Season_type} 
         br
         br 
-        div(class="col-sm-4") temperature: #{s.temperature}
+        div(class="col-sm-4" onclick=`buy(${index})`) temperature: #{s.temperature}
         br
         br  
-        div(class="col-sm-4") Season-month: #{s.Season_month}
+        div(class="col-sm-4" onclick=`buy(${index})`) Season-month: #{s.Season_month}
         script.
                 function buy(itemNo){
                     alert(`You chosen season ${itemNo+1}`)
